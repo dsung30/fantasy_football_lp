@@ -17,7 +17,7 @@ $$\begin{aligned}
  \text{K:}&& x_{i\in K} = 1 && (5) \\
  \text{Flex:}&& x_{i\in RB} + x_{i\in WR} + x_{i\in TE} <= 6 && (6) \\
  \text{Def:}&& x_{i\in DST} = 1 && (7) \\
- \text{Budget:}&& x_{i}*c_{i} <= 200 && (8) \\
+ \text{Budget:}&& x_{i}c_{i} <= 200 && (8) \\
 \end{aligned}$$
 
 Where:
