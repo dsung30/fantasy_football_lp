@@ -27,6 +27,7 @@ Where:
 
 ## Results
 With a $200 budget, this is the optimal team (does not take bench into account)
+
 | player              | pos | proj pts | bid  |
 |---------------------|-----|----------|------|
 | Christian McCaffrey | rb  | 269.5    | 49.0 |
@@ -35,6 +36,9 @@ With a $200 budget, this is the optimal team (does not take bench into account)
 | Amon-Ra St. Brown   | wr  | 208.3    | 28.0 |
 | T.J. Hockenson      | te  | 157.8    | 20.0 |
 | Chris Godwin        | wr  | 170.5    | 12.0 |
+| Diontae Johnson     | wr  | 154.3    | 9.0  |
+| Dallas Cowboys      | dst | 119.3    | 2.0  |
+| Zane Gonzalez       | k   | 130.5    | 1.0  |
 
 While it's unlikely that you'll be able to produce this team, the bid value will also give an approximate value on each position and the bid value distribution to acheive an optimal team.
 
