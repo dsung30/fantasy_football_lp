@@ -40,7 +40,37 @@ With a $200 budget, this is the optimal team (does not take bench into account)
 | Dallas Cowboys      | dst | 119.3    | 2.0  |
 | Zane Gonzalez       | k   | 130.5    | 1.0  |
 
-While it's unlikely that you'll be able to produce this team, the bid value will also give an approximate value on each position and the bid value distribution to acheive an optimal team.
+Additionally, we have applied constraints to determine the value of a player. Given that the optimal points is 109.12, we can see at different bid values the optimal team points. Thus, the highest we will pay is $40 for Justin Jefferson. -1.0 bid indicates that if the player is not drafted.
+
+Justin Jefferson:
+| Bid   | Points |
+|-------|--------|
+| -1.0  | 109.12 |
+| 0.0   | 116.72 |
+| 5.0   | 115.80 |
+| 10.0  | 115.06 |
+| 15.0  | 114.02 |
+| 20.0  | 113.54 |
+| 25.0  | 112.51 |
+| 30.0  | 111.76 |
+| 35.0  | 110.92 |
+| 40.0  | 110.02 |
+| 45.0  | 109.08 |
+| 50.0  | 108.23 |
+| 55.0  | 107.34 |
+| 60.0  | 106.41 |
+| 65.0  | 105.56 |
+| 70.0  | 104.65 |
+| 75.0  | 103.72 |
+| 80.0  | 102.79 |
+| 85.0  | 101.95 |
+| 90.0  | 101.02 |
+| 95.0  | 100.03 |
+| 100.0 | 99.10  |
+
+## Sample Output
+![image](https://github.com/dsung30/fantasy_football_lp/assets/23372191/eae4d4c2-0f55-460e-a12e-c2e33b5e31d6)
+
 
 ## Data
 All data was downloaded from Fantasypros.com. The data includes the projected bid and points.
