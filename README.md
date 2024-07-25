@@ -10,14 +10,14 @@ indicating whether player $X_{i}$ is drafted.
 $$\begin{aligned}
  \text{Maximize} && \sum{p_{i}x_{i}}\\
  \text{subject to:}\\
- \text{QBs:} && x_{i\in QB} = 1 && (1)\\
- \text{RBs:} && x_{i\in RB} >= 2 && (2) \\
- \text{WRs:}&& x_{i\in WR} >= 2 && (3)  \\
- \text{TEs:}&& x_{i\in TE} >= 2 && (4) \\
- \text{K:}&& x_{i\in K} = 1 && (5) \\
- \text{Flex:}&& x_{i\in RB} + x_{i\in WR} + x_{i\in TE} <= 6 && (6) \\
- \text{Def:}&& x_{i\in DST} = 1 && (7) \\
- \text{Budget:}&& x_{i}c_{i} <= 200 && (8) \\
+ \text{QBs:} && x_{i\in QB} = P_{Q} && (1)\\
+ \text{RBs:} && x_{i\in RB} >= P_{R} && (2) \\
+ \text{WRs:}&& x_{i\in WR} >= P_{W} && (3)  \\
+ \text{TEs:}&& x_{i\in TE} >= P_{T} && (4) \\
+ \text{K:}&& x_{i\in K} = P_{K} && (5) \\
+ \text{Flex:}&& x_{i\in RB} + x_{i\in WR} + x_{i\in TE} <= P_{F} && (6) \\
+ \text{Def:}&& x_{i\in DST} = P_{D} && (7) \\
+ \text{Budget:}&& x_{i}c_{i} <= B && (8) \\
 \end{aligned}$$
 
 Where:
